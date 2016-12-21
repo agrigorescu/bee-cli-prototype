@@ -7,8 +7,8 @@ const prompt = require('prompt'); //requred for reading the username and passwor
 const program = require('commander'); //required for creating the cli app - not sure if i need it
 const mkdirp = require('mkdirp'); //required for makinf a directory.
 const fs = require('fs-extra'); //required to remove a file
-const exec = require('child_process').exec; //this is user to be able to run command line commands
-const shell = require('shelljs/global');
+const exec = require('child_process').exec; //this is used to be able to run command line commands
+const shell = require('shelljs/global');//this enables command line commands to be run
 const path = require("path");//to get the path
 let username;
 let password;
