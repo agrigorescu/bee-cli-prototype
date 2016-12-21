@@ -9,7 +9,7 @@
   "author": "Andreea Grigorescu",
   "license": "ISC",
   "bin": {
-    "snippet": "./index.js"
+    "runBee": "./index.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
